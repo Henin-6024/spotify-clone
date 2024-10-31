@@ -1,6 +1,6 @@
 {
   "name": "react-spotify-clone",
-  "homepage": "https://asudbury.github.io/react-spotify-clone",
+  "homepage": "https://Henin-6024.github.io/spoofy-clone",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
